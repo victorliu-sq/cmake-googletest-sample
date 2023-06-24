@@ -1,4 +1,7 @@
+# Get list of all test source files with given pattern
 file(GLOB EXAMPLE_TEST_SOURCES "${PROJECT_SOURCE_DIR}/test/*Test.cpp")
+
+# iterate each test source file to create test executable individually
 foreach (example_test_source ${EXAMPLE_TEST_SOURCES})
     message(STATUS "Test source: ${example_test_source}")
     # Create a human readable name.
@@ -21,26 +24,6 @@ foreach (example_test_source ${EXAMPLE_TEST_SOURCES})
         --gtest_color=yes
         --gtest_output=xml:${CMAKE_BINARY_DIR}/test/${This}.xml
     )
-    # # Add the test target separately and as part of "make check-tests".
-    # add_executable(${bustub_test_name} EXCLUDE_FROM_ALL ${bustub_test_source})
-    # add_dependencies(build-tests ${bustub_test_name})
-    # add_dependencies(check-tests ${bustub_test_name})
-
-    # target_link_libraries(${bustub_test_name} bustub_shared gtest gmock_main)
-
-    # # Set test target properties and dependencies.
-    # set_target_properties(${bustub_test_name}
-    #     PROPERTIES
-    #     RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/test"
-    #     COMMAND ${bustub_test_name}
-    # )
-
-    # # Add the test under CTest.
-    # add_test(${bustub_test_name} ${VALGRIND_BIN} ${VALGRIND_OPTIONS}
-    # --suppressions=${VALGRIND_SUPPRESSIONS_FILE} ${CMAKE_BINARY_DIR}/test/${bustub_test_name}
-    # --gtest_color=yes --gtest_output=xml:${CMAKE_BINARY_DIR}/test/unit_${test_name}.xml)
-    # add_test(${bustub_test_name} ${CMAKE_BINARY_DIR}/test/${bustub_test_name} --gtest_color=yes
-    #         --gtest_output=xml:${CMAKE_BINARY_DIR}/test/${bustub_test_name}.xml)
 endforeach(bustub_test_source ${BUSTUB_TEST_SOURCES})
 
 # set(This ExampleTests)
