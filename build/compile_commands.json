@@ -1,0 +1,37 @@
+[
+{
+  "directory": "/home/liu.11080/cmake-googletest-sample/build/googletest/googlemock",
+  "command": "/usr/bin/c++   -I/home/liu.11080/cmake-googletest-sample/include -isystem /home/liu.11080/cmake-googletest-sample/googletest/googlemock/include -isystem /home/liu.11080/cmake-googletest-sample/googletest/googlemock -isystem /home/liu.11080/cmake-googletest-sample/googletest/googletest/include -isystem /home/liu.11080/cmake-googletest-sample/googletest/googletest    -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock_main.dir/src/gmock_main.cc.o -c /home/liu.11080/cmake-googletest-sample/googletest/googlemock/src/gmock_main.cc",
+  "file": "/home/liu.11080/cmake-googletest-sample/googletest/googlemock/src/gmock_main.cc"
+},
+{
+  "directory": "/home/liu.11080/cmake-googletest-sample/build/googletest/googlemock",
+  "command": "/usr/bin/c++   -I/home/liu.11080/cmake-googletest-sample/include -I/home/liu.11080/cmake-googletest-sample/googletest/googlemock/include -I/home/liu.11080/cmake-googletest-sample/googletest/googlemock -isystem /home/liu.11080/cmake-googletest-sample/googletest/googletest/include -isystem /home/liu.11080/cmake-googletest-sample/googletest/googletest    -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gmock.dir/src/gmock-all.cc.o -c /home/liu.11080/cmake-googletest-sample/googletest/googlemock/src/gmock-all.cc",
+  "file": "/home/liu.11080/cmake-googletest-sample/googletest/googlemock/src/gmock-all.cc"
+},
+{
+  "directory": "/home/liu.11080/cmake-googletest-sample/build/googletest/googletest",
+  "command": "/usr/bin/c++   -I/home/liu.11080/cmake-googletest-sample/include -isystem /home/liu.11080/cmake-googletest-sample/googletest/googletest/include -isystem /home/liu.11080/cmake-googletest-sample/googletest/googletest    -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest_main.dir/src/gtest_main.cc.o -c /home/liu.11080/cmake-googletest-sample/googletest/googletest/src/gtest_main.cc",
+  "file": "/home/liu.11080/cmake-googletest-sample/googletest/googletest/src/gtest_main.cc"
+},
+{
+  "directory": "/home/liu.11080/cmake-googletest-sample/build/googletest/googletest",
+  "command": "/usr/bin/c++   -I/home/liu.11080/cmake-googletest-sample/include -I/home/liu.11080/cmake-googletest-sample/googletest/googletest/include -I/home/liu.11080/cmake-googletest-sample/googletest/googletest    -Wall -Wshadow -Wundef -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=1 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -o CMakeFiles/gtest.dir/src/gtest-all.cc.o -c /home/liu.11080/cmake-googletest-sample/googletest/googletest/src/gtest-all.cc",
+  "file": "/home/liu.11080/cmake-googletest-sample/googletest/googletest/src/gtest-all.cc"
+},
+{
+  "directory": "/home/liu.11080/cmake-googletest-sample/build/src",
+  "command": "/usr/bin/c++  -Dexample_lib_EXPORTS -I/home/liu.11080/cmake-googletest-sample/include  -fPIC   -o CMakeFiles/example_lib.dir/Example.cpp.o -c /home/liu.11080/cmake-googletest-sample/src/Example.cpp",
+  "file": "/home/liu.11080/cmake-googletest-sample/src/Example.cpp"
+},
+{
+  "directory": "/home/liu.11080/cmake-googletest-sample/build/test",
+  "command": "/usr/bin/c++   -I/home/liu.11080/cmake-googletest-sample/include -isystem /home/liu.11080/cmake-googletest-sample/googletest/googletest/include -isystem /home/liu.11080/cmake-googletest-sample/googletest/googletest    -o CMakeFiles/ExampleTest.dir/ExampleTest.cpp.o -c /home/liu.11080/cmake-googletest-sample/test/ExampleTest.cpp",
+  "file": "/home/liu.11080/cmake-googletest-sample/test/ExampleTest.cpp"
+},
+{
+  "directory": "/home/liu.11080/cmake-googletest-sample/build/test",
+  "command": "/usr/bin/c++   -I/home/liu.11080/cmake-googletest-sample/include -isystem /home/liu.11080/cmake-googletest-sample/googletest/googletest/include -isystem /home/liu.11080/cmake-googletest-sample/googletest/googletest    -o CMakeFiles/Example2Test.dir/Example2Test.cpp.o -c /home/liu.11080/cmake-googletest-sample/test/Example2Test.cpp",
+  "file": "/home/liu.11080/cmake-googletest-sample/test/Example2Test.cpp"
+}
+]

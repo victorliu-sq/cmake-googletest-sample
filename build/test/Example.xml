@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites tests="4" failures="0" disabled="0" errors="0" time="0." timestamp="2023-06-24T19:33:59.050" name="AllTests">
+  <testsuite name="ExampleTests" tests="4" failures="0" disabled="0" skipped="0" errors="0" time="0." timestamp="2023-06-24T19:33:59.050">
+    <testcase name="DemonstrateGTestsMacros" file="/home/liu.11080/cmake-googletest-sample/test/ExampleTest.cpp" line="4" status="run" result="completed" time="0." timestamp="2023-06-24T19:33:59.050" classname="ExampleTests" />
+    <testcase name="DemonstrateGTestsMacros2" file="/home/liu.11080/cmake-googletest-sample/test/ExampleTest.cpp" line="9" status="run" result="completed" time="0." timestamp="2023-06-24T19:33:59.050" classname="ExampleTests" />
+    <testcase name="DemonstrateGTestsMacros3" file="/home/liu.11080/cmake-googletest-sample/test/ExampleTest.cpp" line="14" status="run" result="completed" time="0." timestamp="2023-06-24T19:33:59.050" classname="ExampleTests" />
+    <testcase name="DemonstrateGTestsMacros4" file="/home/liu.11080/cmake-googletest-sample/test/ExampleTest.cpp" line="18" status="run" result="completed" time="0." timestamp="2023-06-24T19:33:59.050" classname="ExampleTests" />
+  </testsuite>
+</testsuites>

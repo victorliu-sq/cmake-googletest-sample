@@ -1,0 +1,1 @@
+/usr/bin/c++     CMakeFiles/Example2Test.dir/Example2Test.cpp.o  -o Example2Test  -Wl,-rpath,/home/liu.11080/cmake-googletest-sample/build/src ../lib/libgtest_main.a ../src/libexample_lib.so ../lib/libgtest.a -lpthread 
