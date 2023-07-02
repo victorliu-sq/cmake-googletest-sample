@@ -9,7 +9,7 @@ foreach (example_test_source ${EXAMPLE_TEST_SOURCES})
     message(STATUS "Filename: ${example_test_filename}")
 
     string(REPLACE ".cpp" "" example_test_name ${example_test_filename})
-        message(STATUS "Test Name: ${example_test_name}")
+    message(STATUS "Test Name: ${example_test_name}")
 
     add_executable(${example_test_name} ${example_test_source})
 
@@ -24,7 +24,7 @@ foreach (example_test_source ${EXAMPLE_TEST_SOURCES})
         --gtest_color=yes
         --gtest_output=xml:${CMAKE_BINARY_DIR}/test/${This}.xml
     )
-endforeach(bustub_test_source ${BUSTUB_TEST_SOURCES})
+endforeach(example_test_source ${example_test_source})
 
 # set(This ExampleTests)
 # set(This2 ExampleTests2)

@@ -1,14 +1,17 @@
 cmake_minimum_required(VERSION 3.8)
 
-set(This Example)
+set(project_name GoogltTestExample)
+set(version 2023.6)
 
-project(${This} 
+project(${project_name} 
+    VERSION ${version} 
     LANGUAGES C CXX
 )
 
 enable_testing()
 
-# both source files and test files will try to include header files from this directory
+# both source files and test files 
+# will try to include header files from this directory
 include_directories(${PROJECT_SOURCE_DIR}/include)
 
 # export compile commands

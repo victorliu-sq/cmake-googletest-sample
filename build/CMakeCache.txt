@@ -196,19 +196,19 @@ CMAKE_PROJECT_DESCRIPTION:STATIC=
 CMAKE_PROJECT_HOMEPAGE_URL:STATIC=
 
 //Value Computed by CMake
-CMAKE_PROJECT_NAME:STATIC=Example
+CMAKE_PROJECT_NAME:STATIC=GoogltTestExample
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION:STATIC=1.13.0
+CMAKE_PROJECT_VERSION:STATIC=2023.6
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MAJOR:STATIC=1
+CMAKE_PROJECT_VERSION_MAJOR:STATIC=2023
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_MINOR:STATIC=13
+CMAKE_PROJECT_VERSION_MINOR:STATIC=6
 
 //Value Computed by CMake
-CMAKE_PROJECT_VERSION_PATCH:STATIC=0
+CMAKE_PROJECT_VERSION_PATCH:STATIC=
 
 //Value Computed by CMake
 CMAKE_PROJECT_VERSION_TWEAK:STATIC=
@@ -275,15 +275,15 @@ CMAKE_STRIP:FILEPATH=/usr/bin/strip
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-//Value Computed by CMake
-Example_BINARY_DIR:STATIC=/home/liu.11080/cmake-googletest-sample/build
-
-//Value Computed by CMake
-Example_SOURCE_DIR:STATIC=/home/liu.11080/cmake-googletest-sample
-
 //Use Abseil and RE2. Requires Abseil and RE2 to be separately
 // added to the build.
 GTEST_HAS_ABSL:BOOL=OFF
+
+//Value Computed by CMake
+GoogltTestExample_BINARY_DIR:STATIC=/home/liu.11080/cmake-googletest-sample/build
+
+//Value Computed by CMake
+GoogltTestExample_SOURCE_DIR:STATIC=/home/liu.11080/cmake-googletest-sample
 
 //Enable installation of googletest. (Projects embedding googletest
 // may want to turn this OFF.)

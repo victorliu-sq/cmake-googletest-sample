@@ -30,4 +30,4 @@ if (ON)
 endif()
 
 include("${CMAKE_CURRENT_LIST_DIR}/GTestTargets.cmake")
-check_required_components("")
+check_required_components("GoogltTestExample")

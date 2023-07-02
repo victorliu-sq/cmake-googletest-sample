@@ -1,3 +1,3 @@
-Example2Test 2 0.00306022
-ExampleTest 2 0.00355253
+Example2Test 3 0.0024787
+ExampleTest 6 0.00144112
 ---
